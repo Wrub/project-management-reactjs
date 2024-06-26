@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body {
+        background-color: gainsboro;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+@layer components{
+    #your-projects-list .active{
+        @apply bg-stone-700
+    }
+    #your-projects-list li:not(.active){
+        @apply opacity-35
+    }
+}
