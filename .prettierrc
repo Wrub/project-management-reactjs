@@ -1,8 +1,6 @@
 {
     "arrowParens": "avoid",
-    "jsxSingleQuote": true,
-    "singleQuote": true,
     "semi": false,
     "singleAttributePerLine": true,
-    "printWidth": 120
+    "printWidth": 100
 }
